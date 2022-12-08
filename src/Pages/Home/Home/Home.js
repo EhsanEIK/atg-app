@@ -1,10 +1,12 @@
 import React from 'react';
-import Menubar from '../../Shared/Menubar/Menubar';
+import Menubar from '../../../components/Shared/Menubar/Menubar';
+import TopHeader from '../../../components/TopHeader/TopHeader';
 
 const Home = () => {
     return (
         <div>
             <Menubar></Menubar>
+            <TopHeader></TopHeader>
         </div>
     );
 };
